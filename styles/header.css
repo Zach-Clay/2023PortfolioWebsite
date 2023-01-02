@@ -83,7 +83,7 @@
   color: white;
 }
 
-@media (min-width: 580px) {
+@media (min-width: 610px) {
   .hamburger-menu {
     display: none;
   }
