@@ -35,6 +35,7 @@ h3 {
   cursor: pointer;
   transition: font-size 0.15s;
   transition: color 0.15s;
+  color: black;
 }
 
 .section-header {
