@@ -1,0 +1,62 @@
+:root {
+  --yellow: #FACF0F;
+}
+
+.contact {
+  background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("../assets/background.svg");
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.contact-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-description {
+  font-size: 17px;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+ .contact-container {
+  flex-direction: row;
+ }
+}
+
+.contact-phone,
+.contact-email {
+  width: 100%;
+}
+
+.contact-value {
+  margin-top: 20px;
+}
+
+.contact-value a {
+  font-weight: bold;
+  font-size: 20px;
+  color: #666;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 8px 10px;
+  border-radius: 5px;
+  transition: background-color 0.15s;
+  transition: color 0.15s;
+}
+
+.contact-value a:hover {
+  background-color: var(--yellow);
+  color: white;
+}

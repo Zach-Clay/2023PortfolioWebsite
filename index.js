@@ -9,7 +9,7 @@ function closeNav() {
 function navTo(pos) {
   document.getElementById("mySideNav").style.width = "0";
   
-  setTimeout(function(){
+  setTimeout(() => {
     document.getElementById(pos).scrollIntoView({behavior: "smooth"});
   }, 200)
   

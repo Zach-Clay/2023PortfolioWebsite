@@ -43,6 +43,10 @@
   padding: 15px 40px;
 }
 
+.about-btn:hover {
+  font-size: 18px;
+}
+
 @media (min-width: 580px) {
   .top-section {
     margin-top: 220px;

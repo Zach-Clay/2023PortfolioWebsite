@@ -1,3 +1,7 @@
+:root {
+  --yellow: #FACF0F;
+}
+
 .about {
   padding-top: 60px;
   background: #fafafa;
@@ -30,6 +34,10 @@
   padding: 12px 30px;
 }
 
+.contact-btn:hover {
+  font-size: 15px;
+}
+
 .skills .secondary-header {
   width: 100%;
 }
@@ -46,4 +54,12 @@
   padding: 8px 12px;
   border-radius: 5px;
   font-size: 14px;
+  transition: background-color 0.15s;
+  transition: color 0.15s;
+}
+
+.skill-chips .chip:hover {
+  color: white;
+  background-color: var(--yellow);
+  box-shadow: 1px 1px 18px 0px rgba(89, 89, 89, 0.85);
 }
