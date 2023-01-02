@@ -38,16 +38,9 @@
 }
 
 .experience-btn {
-  text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: bold;
   font-size: 16px;
   padding: 15px 40px;
-  border: none;
-  background-color: var(--yellow);
-  border-radius: 5px;
-  box-shadow: 1px 1px 18px 0px rgba(89, 89, 89, 0.85);
-  cursor: pointer;
 }
 
 @media (min-width: 580px) {

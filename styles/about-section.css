@@ -1,0 +1,54 @@
+.about {
+  padding-top: 60px;
+  background: #fafafa;
+  padding-bottom: 70px;
+}
+
+@media (min-width: 900px) {
+  .about-main-container {
+    display: flex;
+  }
+}
+
+.about-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.description {
+  margin-right: 35px;
+  
+}
+
+.about-text {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.contact-btn {
+  margin-top: 25px;
+  padding: 12px 30px;
+}
+
+.skills .secondary-header {
+  width: 100%;
+}
+
+.skills {
+  
+}
+
+.skill-chips {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-chips .chip {
+  background-color: rgb(225, 225, 225);
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+}
