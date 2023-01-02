@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zachary Clay</title>
+  <link rel="icon" type="image/x-icon" href="./assets/Logo.png">
+
+  <!-- Import Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Import Font Awesome -->
+  <script src="https://kit.fontawesome.com/3949dbc027.js" crossorigin="anonymous"></script>
+
+  <!-- Import Style Sheets -->
+  <link rel="stylesheet" href="./styles/global.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/sidenav.css">
+  <link rel="stylesheet" href="./styles/sidebar.css">
+  <link rel="stylesheet" href="./styles/hero-section.css">
+  <link rel="stylesheet" href="./styles/about-section.css">
+  <link rel="stylesheet" href="./styles/experience-section.css">
+  <link rel="stylesheet" href="./styles/contact-section.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+
+  <!-- Import JavaScript-->
+  <script src="./index.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="left-section">
+      <img class="profile-pic" src="./assets/CurrentProfPic.jpeg" alt="Zach Clay Headshot">
+      <p class="name">Zachary Clay</p>
+    </div>
+    <div class="right-section">
+      <button class="hamburger-menu" onclick="openNav()">
+        <i class="fa fa-bars fa-xl" aria-hidden="true"></i>
+      </button>
+      <button class="nav-item" onclick="navTo('myHome')">
+        Home
+      </button>
+      <button class="nav-item" onclick="navTo('myAbout')">
+        About
+      </button>
+      <button class="nav-item" onclick="navTo('myExperience')">
+        Experience
+      </button>
+      <button class="nav-item" onclick="navTo('myContact')">
+        Contact
+      </button>
+    </div>
+  </header>
+
+  <div id="mySideNav" class="side-nav">
+    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+    <a href="#" onclick="navTo('myHome')">Home</a>
+    <a href="#" onclick="navTo('myAbout')">About</a>
+    <a href="#" onclick="navTo('myExperience')">Experience</a>
+    <a href="#" onclick="navTo('myContact')">Contact</a>
+  </div>
+
+  <main>
+
+    <section class="hero" id="myHome">
+
+    </section>
+
+    <section class="about" id="myAbout">
+
+    </section>
+
+    <section class="experience" id="myExperience">
+
+    </section>
+
+    <section class="contact" id="myContact">
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: rgb(247, 247, 247);
+  overflow-x: hidden;
+  padding-top: 50px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-nav a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.side-nav a:hover {
+  color: #FACF0F;
+}
+
+.side-nav .close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 50px;
+  margin-top: 0px;
+}

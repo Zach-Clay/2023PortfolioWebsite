@@ -1,0 +1,77 @@
+.header {
+  background-color: white;
+  height: 65px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 75;
+}
+
+.left-section {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  height: 45px;
+  border-radius: 50px;
+  margin-left: 15px;
+}
+
+.header .name {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.right-section {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.hamburger-menu {
+  display: block;
+  height: 45px;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.hamburger-menu:hover {
+  background-color: #FACF0F;
+}
+
+.nav-item {
+  display: none;
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.nav-item:hover {
+  color: #FACF0F;
+}
+
+@media (min-width: 580px) {
+  .hamburger-menu {
+    display: none;
+  }
+  .nav-item {
+    display: block;
+  }
+}
