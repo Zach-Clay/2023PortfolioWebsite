@@ -34,6 +34,7 @@ h3 {
   box-shadow: 1px 1px 18px 0px rgba(89, 89, 89, 0.85);
   cursor: pointer;
   transition: font-size 0.15s;
+  transition: color 0.15s;
 }
 
 .section-header {
@@ -55,4 +56,13 @@ h3 {
 .secondary-header {
   margin-top: 60px;
   letter-spacing: 0.8px;
+}
+
+.horizontal-line {
+  margin-top: 25px;
+  content: '';
+  background-color: gray;
+  border-radius: 5px;
+  width: 100%;
+  height: 0.5px;
 }

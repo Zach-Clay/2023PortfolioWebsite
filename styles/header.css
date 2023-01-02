@@ -60,15 +60,19 @@
   text-transform: uppercase;
   border: none;
   background-color: transparent;
+  padding: 7px;
+  border-radius: 5px;
   font-weight: bold;
-  font-size: 12px;
-  margin-left: 15px;
+  font-size: 13px;
+  margin-left: 10px;
   cursor: pointer;
+  transition: background-color 0.15s;
   transition: color 0.15s;
 }
 
 .nav-item:hover {
-  color: var(--yellow);
+  background-color: var(--yellow);
+  color: white;
 }
 
 @media (min-width: 580px) {

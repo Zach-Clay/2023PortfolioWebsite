@@ -35,6 +35,10 @@
  }
 }
 
+.contact i {
+  color: rgb(47, 47, 47);
+}
+
 .contact-phone,
 .contact-email {
   width: 100%;

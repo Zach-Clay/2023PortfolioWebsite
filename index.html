@@ -57,10 +57,15 @@
 
   <div id="mySideNav" class="side-nav">
     <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
+    <div class="horizontal-line"></div>
     <a href="#" onclick="navTo('myHome')">Home</a>
+    <div class="horizontal-line"></div>
     <a href="#" onclick="navTo('myAbout')">About</a>
+    <div class="horizontal-line"></div>
     <a href="#" onclick="navTo('myExperience')">Experience</a>
+    <div class="horizontal-line"></div>
     <a href="#" onclick="navTo('myContact')">Contact</a>
+    <div class="horizontal-line"></div>
   </div>
 
   <main>
@@ -79,6 +84,20 @@
           </button>
         </div>
       </div>
+
+      <div class="hero-sidebar">
+        <div class="hero-links">
+          <a href="https://www.linkedin.com/in/zachary-clay-027215203/" target="_blank">
+            <img src="./assets/LinkedIn.png" alt="LinkedIn">
+          </a>
+          <a href="https://github.com/Zach-Clay" target="_blank">
+            <img src="./assets/Github.png" alt="Github">
+          </a>
+          <a href="https://www.instagram.com/zachclay__/" target="_blank">
+            <img src="./assets/Instagram.png" alt="Instagram">
+          </a>
+        </div>
+      </div>
     </section>
 
     <section class="about" id="myAbout">
@@ -94,7 +113,7 @@
             <p class="about-text">I'm a Software Developer focused on <strong>Full Stack Web Development</strong>. I am currently a senior at <strong>Clemson University</strong> College of Engineering, Computing, and Applied Sciences, working towards a B.S. in Computer Information Systems.</p>
             <p class="about-text">I am passionate about Software Development and continuing to <strong>grow</strong> in my craft. I am very motivated, aware of details, and have great time management skills. I am a team player and love to learn from others. I always welcome constructive criticism!</p>
             <p class="about-text">When I'm not looking at a screen, I love to play guitar, play disc golf, hang out with friends, snowboard, and I love sports. I am a Christian who loves to serve the local church and advance the gospel. I'm the worship leader at Clemson FCA and serve on the worship arts team at NewSpring Church of South Carolina.</p>
-            <button class="btn contact-btn">
+            <button class="btn contact-btn" onclick="navTo('myContact')">
               Contact
             </button>
           </div>
@@ -132,7 +151,7 @@
             <img class="company-img" src="./assets/KH.jpg" alt="Kimley-Horn Logo">
             <div class="company-name"><strong>Kimley-Horn </strong>&#8226; <span class="position-title">Software Developer Intern</span></div>
             <div class="work-location">Raleigh, NC &nbsp;&nbsp; May 2022-August 2022</div>
-            <div class="work-description">Further developed my full stack web development skills using Angular, ASP.Net Web API's, JavaScript, TypeScript, C#, Microsoft SQL Server and Azure DevOps. Gained exposure working with internal clients and performing requirement analysis based on internal needs within the company..</div>
+            <div class="work-description">Further developed my full stack web development skills using Angular, ASP.Net Web API's, JavaScript, TypeScript, C#, Microsoft SQL Server and Azure DevOps. Gained exposure working with internal clients and performing requirement analysis based on internal needs within the company.</div>
           </div>
           <div class="work-info">
             <img class="company-img" src="./assets/SE.jpg" alt="Schneider Electric Logo">
@@ -184,7 +203,7 @@
         </a>
       </div>
       <div class="horizontal-line"></div>
-      <p class="copyright-text">Copyright &copy; Zachary Clay 2022</p>
+      <p class="copyright-text">Copyright &copy; Zachary Clay 2023</p>
     </div>
   </footer>
 
