@@ -12,6 +12,13 @@
   display: flex;
   justify-content: space-between;
   z-index: 75;
+  zoom: 110%;
+}
+
+@media (max-width: 450px) {
+  .header {
+    zoom: 100%;
+  }
 }
 
 .left-section {

@@ -7,6 +7,13 @@
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
+  zoom: 110%;
+}
+
+@media (max-width: 450px) {
+  .footer {
+    zoom: 100%;
+  }
 }
 
 .footer-container {

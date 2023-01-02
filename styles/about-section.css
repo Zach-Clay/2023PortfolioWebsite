@@ -6,6 +6,13 @@
   padding-top: 60px;
   background: #fafafa;
   padding-bottom: 70px;
+  zoom: 115%;
+}
+
+@media (max-width: 450px) {
+  .about {
+    zoom: 100%;
+  }
 }
 
 @media (min-width: 900px) {

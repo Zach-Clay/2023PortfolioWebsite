@@ -6,6 +6,13 @@
   background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url("../assets/background.svg");
   padding-top: 70px;
   padding-bottom: 70px;
+  zoom: 115%;
+}
+
+@media (max-width: 450px) {
+  .contact {
+    zoom: 100%;
+  }
 }
 
 .contact-content {
