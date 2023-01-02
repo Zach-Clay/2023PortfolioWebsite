@@ -1,0 +1,58 @@
+:root {
+  --yellow: #FACF0F;
+}
+
+.footer {
+  background: #000;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer-header {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer-header {
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-links img {
+  height: 50px;
+}
+
+.horizontal-line {
+  margin-top: 25px;
+  content: '';
+  background-color: gray;
+  border-radius: 5px;
+  width: 100%;
+  height: 0.5px;
+}
+
+.copyright-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
