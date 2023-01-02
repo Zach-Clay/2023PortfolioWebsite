@@ -1,3 +1,7 @@
+:root {
+  --yellow: #FACF0F;
+}
+
 .header {
   background-color: white;
   height: 65px;
@@ -48,7 +52,7 @@
 }
 
 .hamburger-menu:hover {
-  background-color: #FACF0F;
+  background-color: var(--yellow);
 }
 
 .nav-item {
@@ -64,7 +68,7 @@
 }
 
 .nav-item:hover {
-  color: #FACF0F;
+  color: var(--yellow);
 }
 
 @media (min-width: 580px) {

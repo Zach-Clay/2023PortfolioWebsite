@@ -1,3 +1,7 @@
+:root {
+  --yellow: #FACF0F;
+}
+
 .side-nav {
   height: 100%;
   width: 0;
@@ -24,7 +28,7 @@
 }
 
 .side-nav a:hover {
-  color: #FACF0F;
+  color: var(--yellow);
 }
 
 .side-nav .close-btn {
