@@ -22,9 +22,10 @@
 }
 
 .contact-container {
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
   align-items: center;
   text-align: center;
 }
