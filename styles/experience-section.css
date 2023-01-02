@@ -1,0 +1,51 @@
+.experience {
+  background-color: white;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+
+.experience-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+@media (min-width: 900px) {
+  .work-container {
+    flex-direction: row;
+  }
+}
+
+.work-info {
+  color: #666;
+}
+
+.company-img {
+  height: 120px;
+  border-radius: 5px;
+}
+
+.company-name {
+  font-size: 17px;
+  color: black;
+}
+
+.position-title {
+  font-size: 15px;
+  color: #666;
+}
+
+.work-location {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.work-description {
+  margin-top: 15px;
+}
