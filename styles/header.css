@@ -1,5 +1,5 @@
 :root {
-  --yellow: #FACF0F;
+  --yellow: #facf0f;
 }
 
 .header {
@@ -64,6 +64,7 @@
 }
 
 .nav-item {
+  color: black;
   display: none;
   text-transform: uppercase;
   border: none;

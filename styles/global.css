@@ -1,5 +1,5 @@
 :root {
-  --yellow: #FACF0F;
+  --yellow: #facf0f;
 }
 
 body {
@@ -43,7 +43,7 @@ h3 {
 }
 
 .section-header::after {
-  content: '';
+  content: "";
   position: absolute;
   top: calc(100% + 1.2rem);
   left: 50%;
@@ -61,7 +61,7 @@ h3 {
 
 .horizontal-line {
   margin-top: 25px;
-  content: '';
+  content: "";
   background-color: gray;
   border-radius: 5px;
   width: 100%;
