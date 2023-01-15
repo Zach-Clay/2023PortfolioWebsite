@@ -1,5 +1,5 @@
 :root {
-  --yellow: #FACF0F;
+  --yellow: #facf0f;
 }
 
 .footer {
@@ -51,7 +51,7 @@
 }
 
 .footer-links img:hover {
-  height: 53px;
+  height: 47px;
 }
 
 .copyright-text {
